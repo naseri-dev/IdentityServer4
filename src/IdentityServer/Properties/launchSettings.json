@@ -1,0 +1,15 @@
+{
+  "profiles": {
+    "SelfHost": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "ConnectionStrings": {
+        "IdsConnection": "server=local;Database=Ids;User Id=sa;password=1qaz!QAZ"
+      },
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:5001"
+    }
+  }
+}
